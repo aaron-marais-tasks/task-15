@@ -1,0 +1,12 @@
+{
+  "name": "task-15",
+  "version": "1.0.0",
+  "description": "Aaron Marais Module 3 Task 15",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaron-marais-tasks/task-15.git"
+  },
+  "author": "Aaron Marais",
+  "license": "ISC",
+  "homepage": "https://github.com/aaron-marais-tasks/task-15#readme"
+}
