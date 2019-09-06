@@ -11,6 +11,10 @@
   "homepage": "https://github.com/aaron-marais-tasks/task-15#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "json5": "^2.1.0"
+    "json5": "^2.1.0",
+    "nodemon": "^1.19.2"
+  },
+  "scripts": {
+    "start": "nodemon src/server.js"
   }
 }
