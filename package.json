@@ -8,5 +8,9 @@
   },
   "author": "Aaron Marais",
   "license": "ISC",
-  "homepage": "https://github.com/aaron-marais-tasks/task-15#readme"
+  "homepage": "https://github.com/aaron-marais-tasks/task-15#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "json5": "^2.1.0"
+  }
 }
