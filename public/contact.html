@@ -1,1 +1,45 @@
-contact
+<!-- This file holds our contact page -->
+
+<!-- Set document type and language -->
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Page header information -->
+    <head>
+        <!-- Title and import style -->
+        <title>Contact Us</title>
+        <link rel="stylesheet" type="text/css" href="/style.css">
+    </head>
+
+    <!-- Body display -->
+    <body class="contact">
+        <!-- Page title -->
+        <div class="title">Please fill in this form to contact us:</div>
+
+        <!-- Contact form -->
+        <div class="form">
+            <!-- Each input item is in it's own div -->
+            <div class="item">
+                <!-- Label and input for item -->
+                <label for="name">Your name:</label>
+                <input id="name" type="text" name="name">
+            </div>
+            <!-- Each input item is in it's own div -->
+            <div class="item">
+                <!-- Label and input for item -->
+                <label for="email">Your email:</label>
+                <input id="email" type="text" name="email">
+            </div>
+            <!-- Each input item is in it's own div -->
+            <div class="item">
+                <!-- Label and input for item -->
+                <label for="message">Your message:</label>
+
+                <!-- Use text area for multiline input -->
+                <textarea id="message" name="message"></textarea>
+            </div>
+
+            <!-- Submit button -->
+            <input type="submit" name="submit" value="Contact">
+        </div>
+    </body>
+</html>

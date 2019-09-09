@@ -1,0 +1,62 @@
+/*
+	This file holds styling for contact and about page
+*/
+
+/*
+	Contact page styling
+*/
+
+/* Contact page should have 23px font size, be half of screen width, and 25vw left and right padding */
+.contact {
+	font-size: 23px;
+	width: 50vw;
+	padding: 0 25vw;
+}
+
+/* Contact title should have 28px font size */
+.contact .title {
+	font-size: 28px;
+}
+
+/* Each confield item should be a flexbox with a space between items, and 15px top and bottom padding */
+.contact .item {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 0;
+}
+
+/* Each contact item's input should have 300px width, and 5px padding */
+.contact .item :not(label) {
+	width: 300px;
+	padding: 5px;
+	margin: 0;
+}
+
+/* The message text area should have a 200px height */
+.contact .item textarea {
+	height: 200px;
+}
+
+
+/*
+	About page styling
+*/
+
+/* Page should take 50vw width and have 25vw left and right padding. Also have 23px font size default */
+.about {
+	font-size: 23px;
+	width: 50vw;
+	padding: 0 25vw;
+}
+
+/* Titles should have 28px font size, center-aligned */
+.about .title {
+	text-align: center;
+	font-size: 28px;
+	padding-bottom: 15px;
+}
+
+/* Content line height should be 1.5x normal */
+.about .content {
+	line-height: 1.5;
+}

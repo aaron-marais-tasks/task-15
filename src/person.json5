@@ -1,5 +1,5 @@
 {
-	"name": "Aaron Marais",
-	"email": "its_me@aaronleem.co.za",
-	"gender": "Male"
+	name: "Aaron Marais",
+	email: "its_me@aaronleem.co.za",
+	gender: "Male"
 }
